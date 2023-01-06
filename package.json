@@ -1,0 +1,10 @@
+{
+  "name": "automation-utec",
+  "scripts": {
+    "test:ui": "cypress open --e2e --browser chrome",
+    "test:spec": "cypress run --spec cypress/e2e/admision"
+  },
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  }
+}
